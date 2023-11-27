@@ -1,0 +1,73 @@
+.row {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
+    height: 500px !important;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    flex: 2;
+    padding: 25px;
+    margin-top: 30px;
+
+}
+
+.column2 {
+    flex: 1.5;
+    padding: 25px;
+
+}
+
+.heroText {
+
+    font-size: 66px;
+    font-weight: 450;
+    line-height: 97px;
+    letter-spacing: 0em;
+
+
+}
+
+.form {
+    margin-top: 40px;
+
+    
+}
+
+.emailInput {
+    width: 438px;
+    height: 72px;
+    border-radius: 40px !important;
+    background-color: #333;
+    color: grey;
+    border: none;
+    position: relative;
+
+    
+}
+
+.submitBtn {
+    position: absolute;
+    margin-top: 5px;
+    height: 62px;
+    width: 137px;
+    border-radius: 40px;
+    background-color: #E3B748;
+    border: none;
+    margin-left: -140px;
+    font-weight: bold;
+
+    
+}
+
+.emailIcon{
+    color: grey;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8;
+    
+}
