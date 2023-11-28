@@ -1,0 +1,45 @@
+.introRow {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+    justify-content: center;
+}
+
+.leftColumn {
+
+    font-size: 30px;
+    font-weight: 450;
+    line-height: 87px;
+    letter-spacing: 0em;
+    padding: 30px;
+    flex: 2.5;
+    
+
+}
+
+.rightColumn {
+    padding: 30px;
+    flex: 2.5;
+    border-left: 1px solid #6A6A6A;
+    
+}
+
+/* Why choose us? section CSS */
+
+.chooseUs{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
