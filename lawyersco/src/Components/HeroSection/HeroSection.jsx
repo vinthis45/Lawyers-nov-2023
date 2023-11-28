@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import styles from "./HeroSection.module.css"
 import { Typography } from '@mui/material'
 import HeroImg from "../../Assets/heroImg.png"
-import EmailIcon from '@mui/icons-material/Email';
-import InputAdornment from '@mui/material/InputAdornment';
+import Logo from "../../Assets/logo.svg"
 import OutlinedInput from '@mui/material/OutlinedInput';
 
 
@@ -20,6 +19,18 @@ export default function HeroSection() {
     };
     return (
         <div>
+            <div className={styles.navbar}>
+                <div className={styles.logo}>
+                    <img src={Logo} alt="Logo" />
+                </div>
+                <div className={styles.navLinks}>
+                    <a href="#home">Home</a>
+                    <a href="#attorneys">Attorneys</a>
+                    <a href="#practice-areas">Practice Areas</a>
+                    <a href="#about-us">About Us</a>
+                </div>
+                <button className={styles.contactBtn}>Contact Us</button>
+            </div>
             <div className={styles.row}>
                 <div className={styles.column1}>
                     <div className='container-fluid'>
@@ -28,7 +39,7 @@ export default function HeroSection() {
                     </div>
                     <div>
                         <form className={styles.form} onSubmit={handleSubmit}>
-                            
+
                             <OutlinedInput
                                 type="email"
                                 id="email"
